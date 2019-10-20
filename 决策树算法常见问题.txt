@@ -1,0 +1,21 @@
+1、python编程问题：注意extend和append的用法
+例：kk=['1','2','3']
+ 
+bb=['4','5','6']
+kk.append(bb)
+['1', '2', '3', ['4', '5', '6']]
+
+aa.extend(bb)
+['1', '2', '3', '4', '5', '6']
+
+2、python编程问题：set函数主要是识别列表或元组中所有具有的特征的取值，
+同样的元素算一个，并且set返回的是一个字典
+
+3、python编程问题：3.x版本中的python不在使用iteritems，而是用items代替
+
+4、python编程问题：return语句执行后会返回到def函数，return语句后面的代码不会执行
+
+5、python编程问题：递归函数返回值，最先递归的不会影响后面递归的，因为此时还没有返回值
+
+6、python编程问题：2.x版本中firststr=mytree.keys()[],但是dict_keys型的数据不支持索引，所以强制转换成list即可
+，即 firststr=list(mytree.keys())[0]
